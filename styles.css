@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c9d5e6;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    padding: 10px;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;      
+}
+
+.cell {
+    border: 1px solid black;
+    width: 100%;
+}
